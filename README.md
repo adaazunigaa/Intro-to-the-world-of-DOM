@@ -14,3 +14,8 @@
 -Traversing Parent/Child/Sibiling
 -Append and AppendChild
 -removeChild and remove
+
+
+
+## SELECTING   methods 
+-getElementById
