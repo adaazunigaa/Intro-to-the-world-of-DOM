@@ -21,3 +21,10 @@
 -getElementById
 -getElementsByTagName
 -getElementsByClassName
+
+-querySelector 
+    *New , all-in-one method to select a single element
+        -Returns the first element 
+-querySelector 
+    *Same idea, but returns a collection of matching elements
+        -Showed in an array-like format

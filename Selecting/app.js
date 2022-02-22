@@ -10,7 +10,7 @@ const allImgs = document.getElementsByTagName("img");
 //console.dir(allImgs[1])
 
 //
-// for (img of allImgs){
+// for (let img of allImgs){
 //     //console.log(image.src);
 //     //img.src="https://www.seekpng.com/png/detail/77-772752_kawaii-chicken.png";
 // }
@@ -21,8 +21,22 @@ const allImgs = document.getElementsByTagName("img");
 //GETELEMENTBYCLASSNAME **********************************************************************
 const squaredImages = document.getElementsByClassName("square");
 
-// for (img of squaredImages){
+// for (let img of squaredImages){
 //     img.src="https://www.seekpng.com/png/detail/77-772752_kawaii-chicken.png";
 // }
 
 
+
+//QUERYSELECTOR *************************************************
+document.querySelector('p');
+document.querySelector(".square");
+document.querySelector("a[title='Java']");
+
+//QUERYSELECTORALL *************************************************
+document.querySelectorAll('p');
+document.querySelectorAll(".square");
+
+const links = document.querySelectorAll("p a");
+for (let link of links) {
+    console.log(link.href);
+}
