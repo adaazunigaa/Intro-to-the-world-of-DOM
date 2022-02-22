@@ -19,3 +19,5 @@
 
 ## SELECTING   methods 
 -getElementById
+-getElementsByTagName
+-getElementsByClassName
