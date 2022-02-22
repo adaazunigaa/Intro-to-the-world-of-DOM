@@ -37,4 +37,9 @@
 -innerHTML
     *Like textContect, but it also disoplays all the markup (element tags)
     *The only way to add more elements inside another element 
--
+-ATRIBUTES 
+    *id 
+        -get/set the id;
+    *src
+        -get/set the src;
+    *getAttribute()
