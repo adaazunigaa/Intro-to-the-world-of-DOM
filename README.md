@@ -28,3 +28,13 @@
 -querySelector 
     *Same idea, but returns a collection of matching elements
         -Showed in an array-like format
+
+## ...Properties and Methods
+-inner.Text
+    *Sensitive to what gets to be shown at a certain moment
+-textContent
+    *Returns everything
+-innerHTML
+    *Like textContect, but it also disoplays all the markup (element tags)
+    *The only way to add more elements inside another element 
+-
