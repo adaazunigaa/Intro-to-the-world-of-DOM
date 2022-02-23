@@ -83,4 +83,13 @@ h2.classList.toggle("purple");
 
 
 
+//Example of classList
+const li = document.querySelectorAll("li");
+for (let list of li){
+    list.classList.toggle("highlight");
+}
+
+
+
+
 
