@@ -3,6 +3,14 @@ body {
     margin: 0 auto;
 }
 
+.purple{
+    color: rgb(219, 12, 219);
+}
+
+.border{
+    border: 3px solid limegreen;
+}
+
 #banner {
     width: 100%;
 }

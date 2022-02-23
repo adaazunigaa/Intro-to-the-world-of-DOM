@@ -43,3 +43,6 @@
     *src
         -get/set the src;
     *getAttribute()
+
+-classList
+    *Easy way to get the current classes on an element and to manipulate them (add, remove, toggle)
