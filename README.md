@@ -50,3 +50,7 @@
 -Append and AppendChil
     *To create and add elements to the HTML from the js doc
 -insertAdjacentElement
+
+-remove 
+-removeChild
+    *Removes a child from an element

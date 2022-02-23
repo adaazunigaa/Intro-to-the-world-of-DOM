@@ -170,3 +170,21 @@ h1.insertAdjacentElement("afterend", h3);
 
 
 
+
+
+
+
+
+//REMOVE CHILD **************************************************
+const firstLi = document.querySelector("li");
+const ul = firstLi.parentElement;
+ul.removeChild(firstLi);
+//REMOVE ***************************************************************
+const img = document.querySelectorAll("img");
+//removes the second img
+img[1].remove();
+
+
+
+
+
