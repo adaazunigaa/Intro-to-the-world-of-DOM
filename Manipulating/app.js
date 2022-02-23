@@ -20,7 +20,7 @@
 
 
 //ATRIBUTES  id/href *********************************************************
-//ewnaming an id 
+//Renaming an id 
 //document.querySelector("#banner").id = "other";
 
 const firstLink = document.querySelector("a");
@@ -45,9 +45,22 @@ const input = document.querySelector("input[type='text'");
 
 
 //example of set attributs 
-const img = document.querySelector("img");
-img.setAttribute("src", "https://devsprouthosting.com/imges/chicken.jpg");
-img.setAttribute("alt", "chicken");
+    // const img = document.querySelector("img");
+    // img.setAttribute("src", "https://devsprouthosting.com/imges/chicken.jpg");
+    // img.setAttribute("alt", "chicken");
+
+
+
+
+
+
+// STYLE ***********************************************************************
+const allLinks = document.querySelectorAll("a");
+for (let link of allLinks){
+    link.style.color = "red";
+    link.style.textDecorationColor = "fuchsia";
+    link.style.textDecorationStyle = "wavy"
+}
 
 
 
