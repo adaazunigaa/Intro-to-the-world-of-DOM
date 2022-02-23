@@ -44,4 +44,11 @@ const input = document.querySelector("input[type='text'");
 
 
 
+//example of set attributs 
+const img = document.querySelector("img");
+img.setAttribute("src", "https://devsprouthosting.com/imges/chicken.jpg");
+img.setAttribute("alt", "chicken");
+
+
+
 
