@@ -64,7 +64,7 @@ for (let link of allLinks){
 
 
 
-//CLASSLIST add/remove/contains/*****************************************************************************
+//CLASSLIST add/remove/contains/**********************************************
 
 
 const h2 = document.querySelector("h2");
@@ -89,6 +89,30 @@ for (let list of li){
     list.classList.toggle("highlight");
 }
 
+
+
+
+//TRAVERSING PARENT/CHILD/SIBILING **************************************************
+const firstBold = document.querySelector("b");
+
+console.log(firstBold.parentElement);
+console.log(firstBold.parentElement.parentElement);
+console.log(firstBold.parentElement.parentElement.parentElement);
+
+const paragraph = firstBold.parentElement;
+paragraph.childElementCount;
+paragraph.children;
+
+
+const squareImage = document.querySelector(".square");
+
+//they return nodes (?Text nodes?)
+squareImage.nextSibling;
+squareImage.previousSibling;
+
+
+squareImage.nextElementSibling;
+squareImage.previousElementSibling;
 
 
 
