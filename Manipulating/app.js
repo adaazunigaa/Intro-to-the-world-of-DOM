@@ -39,15 +39,15 @@ firstLink.getAttribute("href");
 //.... ATRIBUTES input  ************************************************************
 document.querySelector("input[type='text'");
 const input = document.querySelector("input[type='text'");
-    //input.type = "color";
-    //input.setAttribute("type", "text");
+//input.type = "color";
+//input.setAttribute("type", "text");
 
 
 
 //example of set attributs 
-    // const img = document.querySelector("img");
-    // img.setAttribute("src", "https://devsprouthosting.com/imges/chicken.jpg");
-    // img.setAttribute("alt", "chicken");
+// const img = document.querySelector("img");
+// img.setAttribute("src", "https://devsprouthosting.com/imges/chicken.jpg");
+// img.setAttribute("alt", "chicken");
 
 
 
@@ -56,7 +56,7 @@ const input = document.querySelector("input[type='text'");
 
 // STYLE ***********************************************************************
 const allLinks = document.querySelectorAll("a");
-for (let link of allLinks){
+for (let link of allLinks) {
     link.style.color = "red";
     link.style.textDecorationColor = "fuchsia";
     link.style.textDecorationStyle = "wavy"
@@ -85,7 +85,7 @@ h2.classList.toggle("purple");
 
 //Example of classList
 const li = document.querySelectorAll("li");
-for (let list of li){
+for (let list of li) {
     list.classList.toggle("highlight");
 }
 
@@ -113,6 +113,53 @@ squareImage.previousSibling;
 
 squareImage.nextElementSibling;
 squareImage.previousElementSibling;
+
+
+
+//APPEND AND APPEND CHILD *********************************************************
+//creating and appending an img element 
+const newImg = document.createElement("img");
+
+newImg.src = "https://ih1.redbubble.net/image.1032377149.5615/flat,750x1000,075,f.jpg"
+//Append img to the boody
+document.body.appendChild(newImg);
+
+newImg.classList.add("square");
+
+
+
+//creating and appending a h3 element 
+const newH3 = document.createElement("h3");
+newH3.innerText = "I am NEW";
+document.body.appendChild(newH3);
+newH3.classList.add("purple");
+
+
+
+//APEND (adds at the end)
+const p = document.querySelector("p");
+p.append("HELLO HELLO HELLO HELLO", "HOLA, HOLA HOLA, HOLA"); //appends at the end of the p element
+
+
+//PREPEND (adds at the beginning)
+const newB = document.createElement("b");
+newB.append("HIII! ");
+p.prepend(newB);
+
+
+const h3 = document.createElement("h3");
+h3.append("Cats are adorable too!!!");
+
+const h1 = document.querySelector("h1");
+
+h1.insertAdjacentElement("afterend", h3);
+
+
+
+
+
+
+
 
 
 

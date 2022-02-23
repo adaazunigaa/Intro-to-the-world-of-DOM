@@ -46,3 +46,7 @@
 
 -classList
     *Easy way to get the current classes on an element and to manipulate them (add, remove, toggle)
+
+-Append and AppendChil
+    *To create and add elements to the HTML from the js doc
+-insertAdjacentElement
