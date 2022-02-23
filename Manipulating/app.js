@@ -159,7 +159,13 @@ h1.insertAdjacentElement("afterend", h3);
 
 
 
-
+//100 BUTTONS EXERCISE*****************************
+    // for(let i = 0; i<100; i++){
+    //     const newButton = document.createElement("button");
+    //     newButton.innerText = `Hey #${i+1}`;
+        
+    //     document.getElementById("container").appendChild(newButton);   
+    // } 
 
 
 
